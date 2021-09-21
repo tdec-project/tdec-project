@@ -502,6 +502,14 @@ section {
   background-color: #f3f5fa;
 }
 
+.section-bg-red {
+  background-color: red;
+}
+
+.section-bg-yellow {
+  background-color: yellow;
+}
+
 .section-bg-white {
   background-color: white;
 }
@@ -2117,7 +2125,7 @@ section {
 
 
 blockquote {
-  margin: 0 0 -70px 0;
+  margin: 0 0 0px 0;
   padding: 1em ;
   border-left: 5px solid #999;
 }
