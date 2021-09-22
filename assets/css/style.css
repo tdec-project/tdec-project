@@ -503,11 +503,11 @@ section {
 }
 
 .section-bg-red {
-  background-color: red;
+  background-color: #283A5A;
 }
 
 .section-bg-yellow {
-  background-color: yellow;
+  background-color: #e4e9f0;
 }
 
 .section-bg-white {
@@ -1863,7 +1863,7 @@ section {
   background: #f3f5fa;
   min-height: 40px;
   margin-top: 72px;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
   text-align: center;
 
 }
