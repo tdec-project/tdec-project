@@ -2191,6 +2191,7 @@ blockquote:nth-of-type(even) footer:after {
   font-weight: 600;
   font-size: 26px;
   text-align: left;
+  color: #012970;
 }
 .about4 .content ul {
   list-style: none;
