@@ -319,7 +319,8 @@
 /*
  * Description for mobiles
  * something like facebook does the description
- * for the photos
+ * for the photos   26666 y 4444
+ 
 */
 
 .glightbox-mobile .glightbox-container .gslide-description {
@@ -437,13 +438,13 @@
   background: #000;
 }
 
-.gprev,
-.gnext,
+
+
 .gclose {
   z-index: 99999;
   cursor: pointer;
-  width: 26px;
-  height: 44px;
+  width: 0px;
+  height: 0px;
   border: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,24 +461,22 @@
   flex-direction: column;
 }
 
-.gprev svg,
-.gnext svg,
+
 .gclose svg {
   display: block;
-  width: 25px;
-  height: auto;
+  width: 0px;
+  height: 0px;
   margin: 0;
   padding: 0;
 }
 
-.gprev.disabled,
-.gnext.disabled,
+
+
 .gclose.disabled {
   opacity: 0.1;
 }
 
-.gprev .garrow,
-.gnext .garrow,
+
 .gclose .garrow {
   stroke: #fff;
 }
@@ -490,8 +489,7 @@ iframe.wait-autoplay {
   opacity: 0;
 }
 
-.glightbox-closing .gnext,
-    .glightbox-closing .gprev,
+
     .glightbox-closing .gclose {
   opacity: 0 !important;
 }
@@ -527,34 +525,17 @@ iframe.wait-autoplay {
   background: #000;
 }
 
-.glightbox-clean .gprev,
-    .glightbox-clean .gnext,
+
     .glightbox-clean .gclose {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
 }
 
-.glightbox-clean .gprev path,
-.glightbox-clean .gnext path,
+
 .glightbox-clean .gclose path {
   fill: #fff;
 }
 
-.glightbox-clean .gprev {
-  position: absolute;
-  top: -100%;
-  left: 30px;
-  width: 40px;
-  height: 50px;
-}
-
-.glightbox-clean .gnext {
-  position: absolute;
-  top: -100%;
-  right: 30px;
-  width: 40px;
-  height: 50px;
-}
 
 .glightbox-clean .gclose {
   width: 35px;
@@ -906,22 +887,15 @@ iframe.wait-autoplay {
     height: 100%;
     overflow-y: auto;
   }
-  .glightbox-clean .gprev,
-    .glightbox-clean .gnext,
+
     .glightbox-clean .gclose {
     background-color: rgba(0, 0, 0, 0.32);
   }
-  .glightbox-clean .gprev:hover,
-.glightbox-clean .gnext:hover,
+
 .glightbox-clean .gclose:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
-  .glightbox-clean .gprev {
-    top: 45%;
-  }
-  .glightbox-clean .gnext {
-    top: 45%;
-  }
+
 }
 
 @media (min-width: 992px) {
