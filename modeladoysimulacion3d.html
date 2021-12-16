@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Proyectos preliminares - TDEC</title>
+    <title>Modelado y simulación 3D - TDEC</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <link href="assets/img/favicon.png" rel="icon">
@@ -51,7 +51,7 @@
   <!-- ======= INICIO BREADCRUMBS ======= -->
   <section id="breadcrumbs" class="breadcrumbs" style="background-color: #e4e9f0;">
     <div class="container">
-      <h2>PROYECTOS PRELIMINARES</h2>
+      <h2>MODELADO Y SIMULACIÓN 3D</h2>
     </div>
   </section>
   <!-- ======= FIN BREADCRUMBS ======= -->
@@ -60,15 +60,57 @@
   <!-- ======= Services Section ======= -->
   <section id="services" class="services section-bg">
     <div class="container" >
-      <div class="section-title">
-        <h2>Boceto</h2>
-      </div>
+      <p style="text-align:justify;">
+Para este fin se utilizó el programa Blender para poder diseñar tanto la mano como los componentes que se acordaron cuando se determinó el concepto de
+solución ganadora. Para dicho fin, se modeló un brazo izquierdo de manera genérica
+para obtener una idea de cómo el usuario iba a utilizar el dispositivo y donde estará cada uno de los componentes. Por cuestiones de equilibrio y comodidad se
+determinó que era necesario utilizar 3 módulos donde en cada uno de ellos estaría
+algún componente. Para ello se diseño 3 cajas de color negro en las cuales irian
+dichos componentes, el material de estas cajas inicialmente fue pensado para ser
+impreso en 3D.<br><br>
+Para comenzar tenemos el módulo principal, en el cual se encuentran la mayoría
+de componentes (Arduino nano, Buzzer, Led, Acelerómetro, Módulo Bluetooth) y no llegarían a superar más de los 300 g. Por otro lado tenemos el módulo de la batería que está ubicado en la parte derecha con respecto al módulo
+principal, dicha caja está diseñada para poder portar la batería recargable de litio
+que pueda brindar la energía suficiente para que el sistema funcione. El
+módulo del MyoWare se encuentra en el lado opuesto al módulo de la batería
+recargable, esto está dispuesto así para poder monitorear la actividad muscular
+de esa zona. Esa ubicación fue escogida debido a que se encuentra alejado de
+cualquier roce entre el sensor y la zona abdominal y partes cercanas a esta que
+puedan interferir o incluso desconectar este módulo del velcro que une a estos
+3 módulos y fija el dispositivo al brazo del usuario.<br><br>Asimismo recordar que el
+sensor también está en contacto con el paciente ya que este sensor está conformado por 2 microelectrodos que miden la actividad muscular de la zona y otros
+pines correspondientes a un microelectrodo de referencia que ayude al sensor a
+distinguir los valores y están dispuestos como se muestra en la imagen.
+Finalmente, al unir todos estos módulos resulta en la imagen mostrada a continuación, donde se aprecia que los módulos están equilibrados entre sí.<br>
+</p>
 
 
 
-          <div class="cifras section-bg" style="margin-top:-55px">
+          <div class="cifras section-bg" style="margin-top:0px">
       <center>
-              <a href="assets/img/proyectospreliminares/Boceto.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><div class="portfolio-img" ><img src="assets/img/proyectospreliminares/Boceto.png" class="img-fluid" alt="" width="70%"></a>
+
+
+
+              
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<model-viewer 
+  src="assets/3d/ensamblado.glb"
+  alt=""
+  style="width: 100%;height: 600px;"
+  auto-rotate
+  camera-controls>
+</model-viewer>
+
+
+
+
+
+
+
+
+
       </center>     
     </div>
 
